@@ -38,4 +38,4 @@ console.log(newPw);
 
 // 3) Produzione Output : generazione password
 
-passwordElement.innerText = newPw;
+passwordElement.innerHTML = `La tua nuova password è: <strong>${newPw}</strong>` ;
