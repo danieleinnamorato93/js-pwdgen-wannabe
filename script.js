@@ -12,6 +12,7 @@ console.log('passwordElement');
 
 //Aggiungo variabile predeterminata NUMBER
 const number = 21;
+console.log (number, typeof number);
 
 
 // 2) Raccolta dati: chiedo nome/cognome/colore preferito
@@ -32,4 +33,4 @@ console.log('favouriteColor');
 
 // 2) Elaborazione dati
 
-const newPw
+const newPw = `${firstName} ${lastName}`
