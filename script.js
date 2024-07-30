@@ -11,7 +11,7 @@ const passwordElement = document.getElementById ('password');
 console.log('passwordElement');
 
 //Aggiungo variabile predeterminata NUMBER
-const number = 21;
+const number = '21';
 console.log (number, typeof number);
 
 
@@ -27,10 +27,15 @@ console.log('lastName');
 
 //COLORE
 const favoriteColor = prompt('Colore preferito?', 'Bordeaux');
-console.log('favouriteColor');
+console.log('favoriteColor');
 
 
 
 // 2) Elaborazione dati
 
-const newPw = `${firstName} ${lastName}`
+const newPw = `${firstName}${lastName}${favoriteColor}${number}`;
+console.log(newPw);
+
+// 3) Produzione Output : generazione password
+
+passwordElement.innerText = newPw;
